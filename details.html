@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+        <head>
+                <meta charset="utf-8">
+                <title>Détails Sword & Shield Store: le site de vente d'armes en ligne</title>
+                <link rel="stylesheet" href="stylesheets/details.css">
+                <link rel="shortcut icon" href="img/thumb.png">
+        </head>
+    
+        <body>
+                <header>
+                    <h1>Sword & Shield Store: le site de vente d'armes en ligne pour vos jeux-vidéos!</h1>
+                    <h2>Détails techniques</h2>
+                    <nav>
+                            <ul>
+                                <li><a class="button" href="liste.html">Liste des articles</a></li>
+                                <li><a class="button" href="panier_rempli.html">Panier</a></li>
+                                <li><a class="button" href="about.html">Qui sommes-nous?</a></li>
+                                <li><a class="button" href ="details.html">Détails techniques</a></li>
+                                <li class="Recherche">
+                                    <form action="liste.html">
+                                            <label>Recherche: <input name="product"></label>
+                                            <input type="submit" value="Soumettre">
+                                    </form>
+                                </li>
+                            </ul>
+                    </nav>
+                    <div class="logo">
+                            <a href="accueil.html"><img style="height: 150px;" src="img/logo.png" alt="SBZ logo"></a>
+                    </div>
+                </header>
+                <main>
+                        <section class="Details">
+                            <h3>La page principale</h3>
+                            <p>C'est sur la page d'accueil que le développement du site a débuté puis s'est basé par la suite. Tout d'abord, le titre de chaque page du site s'affiche en tant que nom de l'onglet qui l'affiche et ce, avec un petit icône d'onglet. L'entête de chaque page est toujours le même et contient alors le nom complet du site avec l'attribut de page (page d'accueil, catalogue...), un logo de retour à la page d'accueil dessiné par mes soins et enfin les différentes touches de redirection vers les autres pages du site telles que le catalogue des articles en vente, le panier, la page de présentation, de détails (celle-ci en l'occurence) et la barre de recherche d'article.</p>
+                            <p>Niveau style, j'ai un attrait tout particulier vers les effets de transparence faisant transparaître un fond d'écran. Je me suis donné un style de cadre tel un encadré blanc (que j'utilise quasiment partout à chaque endroit) à bords arrondis avec une ombre blanche intérieure à différents niveaux d'opacité suivant la partie à encadrer. Il y a ainsi ce type d'encadrement pour tout les headers du site, les sections, les titres, les main et aussi pour la plupart des boutons de redirection du site. Le logo de retour vers la page d'accueil n'en est pas privé et cette superposition d'encadrés rajoutent de l'opacité à l'endroit ciblé. Aussi, la majeure partie du texte est en rouge-foncé, j'ai trouvé que cette combinaison de blanc pour les cadres et de rouge pour le texte allait assez bien ensemble.</p>
+                            <p>Quant à la barre de recherche, on peut y entrer tout ce qu'on veut dedans (l'écriture y est ecrit en rouge-foncé et la couleur de fond de la zone de saisie est du blanc transparent), le resultat de la soumission de la requête renverra toujours vers la page de catalogue des articles du site.</p>
+                            <p>La page d'accueil du site se compose à présent d'un court paragraphe de présentation de ce qu'est la fonction principale du site de vente et met en évidence deux articles en promotion (une épée et un bouclier, tous deux disponibles dans le catalogue des articles) avec leur image, leur titre, la différence entre les prix de base et ceux après baisse. On peut accéder au détail de l'article en lui-même en cliquant sur son image.</p>
+                            <p>Quant au pied de page (le footer), il n'est pas vraiment utilisé pour grand chose et se contente donc d'écrire le nom de projet accompagnant la création du site de vente.</p>
+                        </section>
+                        <section class="Details">
+                            <h3>Le catalogue ou la liste des produits</h3>
+                            <p>Les articles ont été rangés suivant leur nature dans deux sections. Les épées et les boucliers sont donc répartis entre eux et sont séparés sur la page de catalogue. On verra plus tard qu'on ne pourra naviguer respectivement que parmi les épées ou les boucliers du catalogue suivant le fait qu'on ait affiché le contenu d'une épée ou d'un bouclier respectivement.</p>
+                            <p>Ainsi chaque article est supposé être affiché en ligne les uns à la suite des autres mais, suivant la taille de la fenêtre, peuvent s'afficher les uns en dessous des autres. Un article à acheter depuis le catalogue est affiché avec son image, son nom, son prix, une phrase incitant à cliquer sur l'article pour obtenir le détail et enfin un lien d'ajout au panier (ce lien ne permet en réalité que de se rediriger vers la page d'un panier déjà constitué d'articles, même si le lien se réfère à un article qui n'est pas dans la page du panier). Etant donné que tous ces articles ont une image de dimensions différentes, il ne m'était pas vraiment possible de user de mes cadres blans pour les mettre en évidence séparément, après quelques essais, cela donnait des affichages disproportionnés.</p>
+                        </section>
+                        <section class="Details">
+                            <h3>Le panier</h3>
+                            <p>En soi, le contenu du panier est indépendant des articles qu'on choisi d'ajouter. Un panier rempli et un panier vide sont déjà définis. Le panier plein ne contient que deux articles affichés en tant qu'alignés, avec leur nom, leur prix et leur touche de suppression du panier. On ne peut accéder au panier plein qu'après avoir soit cliqué sur le bouton de panier en haut de la page, soit en ayant demandé à inclure un article du catalogue dans le panier. Puis, on a aussi la possibilité de vider ce panier ou alors de finaliser l'achat des articles présents dedans. L'action de vider le panier ou de supprimer un article du panier renvoie à la page d'un panier vide. Enfin, la touche de finalisation de l'achat ne fait strictement rien si ce n'est afficher un "#" dans le lien de la page.</p>
+                        </section>
+                        <section class="Details">
+                            <h3>Le détail des produits et l'accès au paiement</h3>
+                            <p>Une fois un produit sélectionné dans le catalogue des articles, celui-ci apparaît a l'écran avec bien plus de détails. En effet s'affiche son nom avec son image agrandie. Une description détaillée suit ensuite avec les catactéristiques techniques dedans. Son prix est davantage mit en évidence.</p>
+                            <p>De plus, une barre de navigation est affichée juste en dessous du prix. Suivant l'article que vous avez sélectionné, vous pouvez naviguer entre les épées si votre arme à l'écran est une épée ou entre les boucliers dans le cas inverse, et ce, avec les boutons "Suivant" et "Précédent" dans l'ordre de disposition dans le catalogue. Lorsque l'on choisit d'ajouter l'article au panier, c'est un panier rempli qui apparaît. Cliquer sur la touche de procéder à l'achat ne fait rien.</p>
+                        </section>
+                        <section class="Details">
+                            <h3>Le lien avec le travail demandé</h3>
+                            <h4>Sujet du projet Web</h4>
+                            <p>Sword & Shield Store est un site de vente d'armes en lignes avec épées et boucliers au choix pour des plateformes de jeux-vidéos avec qui nous sommes partenaires. L'idée est qu'une fois le produit payé, il est téléchargé de telle manière à pouvoir être utilisé dans un jeux-vidéo. La page d'accueil affiche les dernières nouvelles de promotions en cours et d'actualité sur les produits et dispose d'une barre de recherche donnant sur la liste des produits présents sur le site.</p>
+                            <h4>Elements de gestion du panier</h4>
+                            <p>Les produits du site sont présentés avec la possibilité de les ajouter au panier ou de les retirer. Le panier peut être vide ou peut contenir des articles. Il peut être vidé et l'on peut finaliser un achat dedans.</p>
+                            <h4>Pages "Qui sommes-nous" et "Détails techniques"</h4>
+                            <p>Ce site dispose d'une page de présentation du site ainsi que de l'auteur. La page de description des méthodes employées est celle-ci.</p>
+                            <h4>Contraintes</h4>
+                            <p><b>- HTML et CSS uniquement utilisés dans ce site</b></p>
+                            <p><b>- Aspect professionnel et uniforme en place</b></p>
+                            <p><b>- Chaque page est reliée à plusieurs autres pages HTML pour une bonne navigation propre et cohérente.</b></p>
+                            <p><b>- Responsivité respectée et le site d'adapte bien aux petits écrans ainsi qu'aux effets de Zoom sur page.</b></p>
+                        </section>
+                        <section class="Details">
+                            <h3>Sources</h3>
+                            <p><b>Image de fond d'écran:</b> https://wallpapersafari.com/fantasy-nature-wallpapers-hd/</p>
+                            <p><b>Logo onglet:</b> https://es.123rf.com/imagenes-de-archivo/armadura_medieval.html?sti=o62fc3qp865meu1ps8|</p>
+                            <p><b>Image Blade-Boreal:</b> https://www.pinterest.fr/pin/448248969139321222/</p>
+                            <p><b>Image Doom-Sword:</b> https://www.pinterest.com/alexquah9/dragon-sword-concept-art/</p>
+                            <p><b>Image Genesis-Sword:</b> http://www.weapons-universe.com/Brands/Kit_Rae/Kilgorin-Sword_of_Darkness_II.shtml</p>
+                            <p><b>Image Swordlight:</b> https://www.pinterest.cl/pin/775674735797409556/</p>
+                            <p><b>Image Ice-Sword:</b> https://www.artstation.com/artwork/rRq6W6</p>
+                            <p><b>Image Revive-Shield:</b> https://www.pinterest.fr/pin/304696731037487812/</p>
+                            <p><b>Image Vulcan-Shield:</b> https://www.pinterest.com/santiagoinmune/escudos/</p>
+                            <p><b>Image Draco-Shield:</b> https://www.artstation.com/artwork/WlKOy</p>
+                            <p><b>Image Sword-Shield:</b> https://free3d.com/3d-model/fantasy-shield-2127.html</p>
+                            <p><b>Image Defense-Shield:</b> https://www.pinterest.com/pin/593560425863233490/</p>
+                        </section>
+                </main>
+                <footer>
+                        <h4>S&S-S Project 2021</h4>
+                </footer>
+        </body>
+</html>
