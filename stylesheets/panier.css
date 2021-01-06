@@ -1,0 +1,124 @@
+body {
+    
+    background-image: url(../img/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 1199px;
+    color: white;
+    text-align: center;
+    max-width:1000px;
+    margin: auto;
+    font-family: sans-serif;
+}
+
+header{
+    padding: 3px 0.5em;
+    border-width: 3px 0;
+    border-style: solid none;
+    background-color: rgba(255,255,255,0.6);
+    border-color: white;
+    box-shadow: inset 0 0 7px 5px white;
+    border-radius: 20px / 10px;
+}
+
+header ul{
+    padding: 3px;
+    display: block;
+    text-align: center;
+    background-color: rgba(255,255,255,0.6);
+    border-color: white;
+    border-radius: 0px / 0px;
+}
+
+header ul li{
+    padding : 0.1em 1em 0 1em;
+    display: inline-block;
+    background-color: rgba(255,255,255,0.6);
+    border-color: white;
+    box-shadow: inset 0 0 7px 5px white;
+    border-radius: 5px / 5px;
+    
+}
+
+h1{
+    color: darkred;
+    background-color: rgba(255,255,255,0.6);
+    border-color: darkred;
+    box-shadow: inset 0 0 7px 5px white;
+    border-radius: 20px / 10px;
+}
+
+h2{
+    color: darkred;
+    background-color: rgba(255,255,255,0.6);
+    border-color: darkred;
+    box-shadow: inset 0 0 7px 5px white;
+    border-radius: 20px / 10px;
+}
+
+.button{
+    color:darkred;
+	text-decoration:none;
+	display:inline-block;
+	background-repeat:no-repeat;
+	background-position:center top;
+}
+
+.Recherche{
+    color: darkred;
+}
+
+input[type="submit"]{
+ border-radius: 8px;
+ background-color: darkred;
+ border-color: darkred;
+ color:white;
+
+}
+
+form label input{
+	border-radius: 8px;
+    color:darkred;
+	background-color:rgba(255,255,255,0.5);
+	border:2px solid;
+	border-color: darkred;
+}
+
+main{
+    color: darkred;
+    margin-top: 3px;
+    padding: 3px 0.5em;
+    border-width: 3px 0;
+    border-style: solid none;
+    background-color: rgba(255,255,255,0.6);
+    border-color: white;
+    box-shadow: inset 0 0 7px 5px white;
+    border-radius: 20px / 10px;
+}
+
+.contenu{
+    display: inline-block;
+    margin: 50px;
+    background-color: rgba(255,255,255,0.5);
+    border-color: white;
+    box-shadow: inset 0 0 7px 5px white;
+    border-radius: 20px / 10px;
+}
+
+.logo{
+    display: inline-block;
+    color: darkred;
+    background-color: rgba(255,255,255,0.6);
+    border-color: darkred;
+    box-shadow: inset 0 0 7px 9px white;
+    border-radius: 20px / 10px;
+}
+
+@media screen and (max-width:1000px){
+    
+    body{
+            max-width: 600px;
+    }
+    
+}
